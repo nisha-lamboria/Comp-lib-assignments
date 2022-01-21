@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--greyLight-1);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .button {
+    width:2rem;
+    height: 2rem;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .button:hover {
+    border-radius: 5rem;
+    background: var(--greyLight-1);
+  }
+  
+  .like,
+  .bookmark,
+  .send {
+    margin-right: 1rem;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20rem;
+    margin: 1.5rem;
+    background-color: white;
+    box-shadow: var(--greyDark) 1px 3px 8px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .card-top {
+    width: 20rem;
+    /* display: flex;
+    flex-direction: column; */
+    /* flex-wrap: wrap; */
+  }
+  
+  .card-name {
+    color: var(--primary);
+    padding-top: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .card-info {
+    color: var(--primary-dark);
+    font-weight: bold;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card-text {
+    padding: 0 1rem;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  .button img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    margin-top: 0.8rem;
+  }
+  .right-bottom {
+    display: flex;
+    padding-left: 0.3rem;
+  }
+  .left-bottom {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  /* card-1*/
+  .card-top-1 {
+    position: relative;
+  }
+  .card-name-1 {
+    position: absolute;
+    top: 5rem;
+    color: white;
+  }
+  
+  
+  /* .card-top-2 {
+    position: relative;
+  }
+  .card-name-2 {
+    position: absolute;
+    bottom: 13rem;
+  } */
+  .card-2 .top-image-2 {
+    order: 2;
+  }
+  
+  .card-2 .card-info-2 {
+    order: 2;
+  }
+  .card-name-2{
+      order: 1;
+  }
