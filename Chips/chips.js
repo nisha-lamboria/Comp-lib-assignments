@@ -93,7 +93,8 @@ inputChip.addEventListener('keyup',(e)=>{
 
 console.log(chipBoxArray)
 
-chipBoxArray.forEach((element,index)=>{
+chipBoxArray.forEach((element)=>{
+    console.log(element.getAttribute('data-item'))
     
 })
 
