@@ -58,7 +58,7 @@ a {
 
 .tabs-list .active {
     color: #222;
-    position: relative;
+    /* position: relative; */
     /* background-color: chartreuse; */
 
 }
@@ -67,8 +67,8 @@ a {
     content: "";
     border-bottom:2px solid red ;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    /* left: 0;
+    bottom: 0; */
     width: 100%;
 }
 
