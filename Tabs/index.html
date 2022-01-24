@@ -5,12 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabs</title>
+    <link rel="stylesheet" href="tabs.css">
+    <link rel="stylesheet" href="/utils.css">
 </head>
 <body>
-    <ul>
-        <li>TAB1</li>
-        <li>TAB2</li>
-        <li>TAB3</li>
-    </ul>
+    <nav class="back-color">Tabs</nav>
+    <div class="container">
+      <ul class="tabs">
+        <li data-tab-target="colors-tab" class="active-tab">Colors</li>
+        <li data-tab-target="fav-tab">Favourite movie genre</li>
+        <li data-tab-target="about-tab">About</li>
+      </ul>
+      <ul class="tabs_content">
+        <li id="colors-tab" class="active-tab" data-tab-content>
+          <div class="content-box">
+            <h2 class="content-details">Which Color?</h2>
+            <ul class="colors">
+              <li data-color="#0d93ed"></li>
+              <li data-color="#5b0eeb"></li>
+              <li data-color="#801357"></li>
+              <li data-color="#ec4356"></li>
+              <li data-color="#91f3e3"></li>
+            </ul>
+          </div>
+        </li>
+        <li id="fav-tab" data-tab-content>
+          <div class="content-box">
+            <h2 class="content-details">Lorem ipsum dolor sit.</h2>
+            <p class="content-deatails">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+              deleniti error, minus odit voluptas numquam quos earum veritatis,
+              corporis, odio atque adipisci aliquid?
+            </p>
+          </div>
+        </li>
+        <li id="about-tab" data-tab-content>
+          <div class="content-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              beatae amet repellendus aliquam, nobis numquam doloribus corporis,
+              illum nulla tempora, voluptas sequi esse.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <footer>nisha</footer>
+    <script src="tabs.js"></script>
 </body>
 </html>

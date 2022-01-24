@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.tabs-nav {
+    border-bottom: 1px solid #CCC;
+    padding-top: 2rem;
+    height: 3rem;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.tabs-wrapper {
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* background-color: burlywood; */
+    position: relative;
+
+    /* overflow-y: hidden; */
+}
+
+.tabs-list {
+    display: inline-block;
+    text-decoration: none;
+    /* background-color: #CCC; */
+
+}
+
+.tabs-list .tab {
+    display: inline-block;
+    list-style: none;
+    outline: none;
+    padding-left: 2rem;
+}
+
+.tabs-list .tab:nth-child(1) {
+    padding-left: 0;
+    /* background-color: blueviolet; */
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid red; */
+    color: #888;
+    padding: 0.8rem 1rem 1rem;
+}
+
+.tabs-list .active {
+    color: #222;
+    position: relative;
+
+}
+
+.tabs-list .active::after{
+    content: "";
+    border-bottom:2px solid red ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
