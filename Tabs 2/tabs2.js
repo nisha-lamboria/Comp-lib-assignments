@@ -1,0 +1,1 @@
+let tabs= document.getElementsByClassName('')

@@ -23,7 +23,7 @@ body {
     /* border: 1px solid red; */
     text-align: center;
     /* background-color: burlywood; */
-    position: relative;
+    /* position: relative; */
 
     /* overflow-y: hidden; */
 }
@@ -31,7 +31,7 @@ body {
 .tabs-list {
     display: inline-block;
     text-decoration: none;
-    /* background-color: #CCC; */
+    background-color: #CCC;
 
 }
 
@@ -59,6 +59,7 @@ a {
 .tabs-list .active {
     color: #222;
     position: relative;
+    /* background-color: chartreuse; */
 
 }
 
@@ -70,5 +71,7 @@ a {
     bottom: 0;
     width: 100%;
 }
+
+
 
 
