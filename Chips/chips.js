@@ -46,8 +46,12 @@ function createChip(chipName){
     div.innerHTML=chipName
     btn.innerHTML='&times;'
     btn.setAttribute('class','cross-chip button closebtn')
-    btn.setAttribute('data-item',chipName)
-    console.log(btn)
+    // btn.setAttribute('data-item',chipName)
+    // console.log(btn)
+    btn.addEventListener("click",()=>{
+        btn.parentElement.remove()
+    })
+    
     // btn.setAttribute('class','button')
     div.appendChild(btn)
     return div
@@ -91,12 +95,6 @@ inputChip.addEventListener('keyup',(e)=>{
 
 // }
 
-console.log(chipBoxArray)
-
-chipBoxArray.forEach((element)=>{
-    console.log(element.getAttribute('data-item'))
-    
-})
 
 
 
