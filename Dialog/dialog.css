@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dialogs-container{
+    padding: 1rem;
+}
+
+.dialogs-wrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow:0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    border-radius: 0.3rem;
+    width: 16rem;
+    margin: 1rem;
+    gap: 0.4rem;
+}
+
+.dialogs{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    align-items: center;
+}
