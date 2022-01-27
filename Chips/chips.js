@@ -14,7 +14,7 @@
 //     chipsArray.splice(chipId,1)
 //     console.log(chipsArray) 
 // }
-
+  
 
 
 //take input
@@ -46,17 +46,15 @@ function createChip(chipName){
     div.innerHTML=chipName
     btn.innerHTML='&times;'
     btn.setAttribute('class','cross-chip button closebtn')
-    // btn.setAttribute('data-item',chipName)
-    // console.log(btn)
-    btn.addEventListener("click",()=>{
-        btn.parentElement.remove()
+    btn.addEventListener("click",(e)=>{
+        e.target.parentElement.remove()
     })
     
-    // btn.setAttribute('class','button')
     div.appendChild(btn)
     return div
 
 }
+
 function reset(){
     document.querySelectorAll('.chip-ele-input').forEach((element)=>{
         element.parentElement.removeChild(element)
@@ -82,18 +80,6 @@ inputChip.addEventListener('keyup',(e)=>{
 })
 
 
-
-
-// function removeChip(){
-    
-//     //     const getTarget=e.target.getAttribute('data-item')
-//     // const index=chips.indexOf(getTarget)
-//     chips=[...chips.slice(0,index),...chips.slice(index+1)]
-//     console.log(chips)
-//     addChips()
-    
-
-// }
 
 
 
