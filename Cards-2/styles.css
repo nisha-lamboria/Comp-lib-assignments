@@ -5,6 +5,9 @@
     width: 2rem;
     height: 2rem;
     /* background-color: white; */
+    color: white;
+    border: white;
+    stroke: var(--white);
 }
 
 .product{
@@ -18,7 +21,7 @@
 
 .product-container{
     text-align: center;
-    background-color: var(--dark-blue-purple2);
+    background-color: var(--pink8);
     color: var(--gold1);
 }
 
