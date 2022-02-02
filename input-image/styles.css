@@ -117,6 +117,10 @@ a{
     height: auto;
 }
 
+.input-wrapper{
+    margin-top:2rem;
+}
+
 .input-display-wrapper{
     padding: 1rem;
     gap: 1rem;
@@ -131,6 +135,7 @@ a{
 
 .input-label{
     padding-bottom: 0.6rem;
+    outline: none;
 }
 
 .input-field{
@@ -141,5 +146,6 @@ a{
     outline: none;
     box-sizing: inherit;
     line-height: 1;
+    border: 1px solid var(--greyDark);
 
 }
