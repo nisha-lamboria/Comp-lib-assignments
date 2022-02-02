@@ -1,0 +1,145 @@
+body{
+    background-color:var(--blue-purple) ;
+    box-sizing: border-box;
+}
+/* nav-docs same across all components */
+.logo-header{
+    width: 9rem;
+    height: 8rem;
+}
+a{
+    text-decoration: none;
+}
+.logo-head{
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+}
+
+.docs-head{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--blue-purple-dark1);
+    z-index:1;
+}
+.logo-head a{
+    color:var(--white);
+}
+
+.library-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-left:5rem;
+    margin-top: 10rem;
+}
+
+.components-box{
+    margin-top: 2rem;
+}
+.comp-link{
+    list-style: none;
+    margin-bottom: 0.9rem;
+}
+.nav-h1{
+    color: var(--gold1);
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.comp-link a{
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.comp-box{
+    padding: 2rem;
+    background-color: var(--blue-purple);
+    color: white;
+    /* color: #ecfffc; */
+    font-size: 1.6rem;
+    max-width: 50%;
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+
+.comp-h1{
+    margin-bottom:1rem ;
+    color: var(--pink7);
+}
+
+.comp-h2{
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    /* border-bottom: 2px solid var(--sky-blue);
+    width: 15%; */
+}
+
+.comp-h3{
+    margin: 1rem 0;
+    color: var(--shine-green-dark);
+}
+
+.comp-p-large{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-bottom:0.8rem ;
+}
+
+.comp-p-small{
+    font-size: 1.7rem;
+    margin-bottom:1rem ;
+}
+
+.highlight-text{
+    color: var(--shine-green);
+    font-weight: bold;
+}
+
+.comp-display{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: var(--blue-purple1);
+    margin-bottom: 2rem;
+    box-shadow:-0.1rem -0.1rem 0.2rem var(--sky-blue);
+    border-radius: 1rem;
+}
+
+.img-display-wrapper{
+    border: 2px solid var(--greyDark);
+    padding: 1.5rem;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.input-display-wrapper{
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.input-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.input-label{
+    padding-bottom: 0.6rem;
+}
+
+.input-field{
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    outline: none;
+    box-sizing: inherit;
+    line-height: 1;
+
+}
