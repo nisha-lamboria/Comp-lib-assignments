@@ -67,11 +67,14 @@ a{
 
 .comp-h1{
     margin-bottom:1rem ;
+    color: var(--pink7);
 }
 
 .comp-h2{
     margin-top: 2rem;
     margin-bottom: 1.2rem;
+    /* border-bottom: 2px solid var(--sky-blue);
+    width: 15%; */
 }
 
 .comp-h3{
@@ -130,6 +133,10 @@ a.link-text{
     color: var(--shine-green-dark);
     border-bottom: 1px solid var(--shine-green-dark);
     padding-left: 0.2rem;
+}
+
+alert[variant="primary"]{
+    padding:1rem;
 }
 
 alert[variant="success"]{
