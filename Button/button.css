@@ -1,0 +1,147 @@
+body{
+    background-color:var(--blue-purple) ;
+    box-sizing: border-box;
+}
+/* nav-docs same across all components */
+.logo-header{
+    width: 9rem;
+    height: 8rem;
+}
+a{
+    text-decoration: none;
+}
+.logo-head{
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+}
+
+.docs-head{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--blue-purple-dark1);
+    z-index:1;
+}
+.logo-head a{
+    color:var(--white);
+}
+
+.library-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-left:5rem;
+    margin-top: 10rem;
+}
+
+.components-box{
+    margin-top: 2rem;
+}
+.comp-link{
+    list-style: none;
+    margin-bottom: 0.9rem;
+}
+.nav-h1{
+    color: var(--gold1);
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.comp-link a{
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.comp-box{
+    padding: 2rem;
+    background-color: var(--blue-purple);
+    color: white;
+    /* color: #ecfffc; */
+    font-size: 1.6rem;
+    max-width: 50%;
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+
+.comp-h1{
+    margin-bottom:1rem ;
+    color: var(--pink7);
+}
+
+.comp-h2{
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    /* border-bottom: 2px solid var(--sky-blue);
+    width: 15%; */
+}
+
+.comp-h3{
+    margin: 1rem 0;
+    color: var(--shine-green-dark);
+}
+
+.comp-p-large{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-bottom:0.8rem ;
+}
+
+.comp-p-small{
+    font-size: 1.7rem;
+    margin-bottom:1rem ;
+}
+
+.highlight-text{
+    color: var(--shine-green);
+    font-weight: bold;
+}
+
+.comp-display{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: var(--blue-purple1);
+    margin-bottom: 2rem;
+    box-shadow:-0.1rem -0.1rem 0.2rem var(--sky-blue);
+    border-radius:1.5rem ;
+}
+
+.btn-display-wrapper{
+    margin: 1rem 0;
+    padding:2rem;
+    gap:3rem;
+}
+
+.btn{
+    border: none;
+    background: none;
+    padding: none;
+    font-size: inherit;
+}
+
+.btn-primary{
+    padding: 0.8rem 1.6rem;
+    font-size: 2rem;
+    background-color: var(--sky-blue);
+    color: var(--gold1);
+    border-radius: 1rem;
+}
+
+.btn-outline{
+    padding: 0.8rem 1.6rem;
+    font-size: 2rem;
+    border: 1px solid var(--sky-blue);
+    color: var(--gold1);
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    box-shadow: 1rem 1rem 1 rem var(--white);
+    box-shadow:0.1rem 0.1rem 0.1rem var(--gold1),-0.1rem -0.1rem 0.2rem var(--gold1);
+}
+
+.btn-icon{
+    text-transform: capitalize;
+}
+
