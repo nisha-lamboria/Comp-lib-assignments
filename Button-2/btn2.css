@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+}
+.button1{
+    border: none;
+    width: 8em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 1.5rem;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 6px 6px 12px #c5c5c5,-6px -6px 12px #ffffff;
+    margin-left: 2rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button1::before{
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 2em;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(to right,var(--light-red) 0%,var(--pink5) 100%);
+    display: block;
+    transition: .5s ease;
+    z-index: -1;
+
+}
+
+.button1:hover::before{
+    width: 8em;
+}
