@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,10 @@
     <title>Tabs-2</title>
     <link rel="stylesheet" href="tabs2.css">
     <link rel="stylesheet" href="/utils.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <div class="tabs-nav">
         <div class="tabs-wrapper">
@@ -23,6 +27,79 @@
         </div>
     </div>
 
+    <div class="tab-fullWrapper">
+        <div class="tab-wrapper">
+            <ul class="tab-list">
+                <li class="tabLink"><a href="#">Tab1</a></li>
+                <li class="tabLink"><a href="#">Tab2</a></li>
+            </ul>
+            <div class="tabContent">
+                <form class="login form">
+                    <div class="input-wrapper">
+                        <label for="email" class="text-label">
+                            Email<span class="req-feild">*</span>
+                        </label>
+                        <input id="email" type="email" class="text-input">
+
+                        <label for="password" class="text-label">
+                            Password<span class="req-feild">*</span>
+                        </label>
+                        <input id="password" type="email" class="text-input">
+                        <span class="material-icons material-icons-outlined">
+                            visibility</span>
+                    </div>
+                    <div class="password-wrapper">
+                        <div class="remeber-box">
+                            <input type="checkbox" name="remember-me">
+                            Remember Me
+                        </div>
+                        <div class="forget-box">
+                            <a href="#" class="link-btn"></a>
+                        </div>
+                        <div class="btn btn-primary">Login</div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tabContent" style="display:none;">
+                <form class="register form">
+                    <div class="input-wrapper">
+                        <label for="email" class="text-label">
+                            Email<span class="req-feild">*</span>
+                        </label>
+                        <input id="email" type="email" class="text-input">
+
+                        <label for="email" class="text-label">
+                            Email<span class="req-feild">*</span>
+                        </label>
+                        <input id="email" type="email" class="text-input">
+
+                        <label for="email" class="text-label">
+                            Email<span class="req-feild">*</span>
+                        </label>
+                        <input id="email" type="email" class="text-input">
+
+                        <label for="password" class="text-label">
+                            Password<span class="req-feild">*</span>
+                        </label>
+                        <input id="password" type="email" class="text-input">
+                        <span class="material-icons material-icons-outlined">
+                            visibility</span>
+
+                        <label for="password" class="text-label">
+                            Password<span class="req-feild">*</span>
+                        </label>
+                        <input id="password" type="email" class="text-input">
+                        <span class="material-icons material-icons-outlined">
+                            visibility</span>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="tabs2.js"></script>
 </body>
+
 </html>
