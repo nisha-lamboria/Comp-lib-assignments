@@ -1,0 +1,120 @@
+.header{
+    background-color: var(--blue-purple);
+    color: var(--white);
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 8rem;
+}
+
+.logo-head{
+    margin-right:3rem ; 
+}
+
+.logo-img{
+    width: 10rem;
+    height: 9rem;
+}
+
+.logo-name{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.logo-name:hover{
+    color:var(--shine-green-dark)
+
+}
+
+.header a,.carousel a{
+    color: var(--white);
+}
+
+.catLinks-head ul{
+    text-decoration:none;
+    list-style: none;
+}
+
+.cat-item .cat-link{
+    position: relative;
+    font-weight: 550;
+    font-size: 1.4rem;
+    padding: 2.5rem 2rem 2.9rem;     /* top horizontal bottom*/
+}
+
+.cat-link:hover::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-bottom: 2px solid var(--white);
+    width: 100%;
+}
+
+.cat-link:hover{
+    font-weight: bold; 
+}
+
+.search-head{
+    width: 40%;
+    margin: 2rem 2rem 2rem 5rem;
+    position: relative;
+    background-color: var(--white1);
+}
+
+.search-input{
+    cursor: text;
+    border: none;
+    outline:none;
+    width: 97%;
+    box-sizing: content-box;
+    padding: 0.8rem 1rem;
+    border-radius: 0 0.4rem 0.4rem 0;
+    font-size: 1.6rem;
+    height: 2rem;
+    background:var(--white1);
+    border: 1px solid var(--white1);
+   
+}
+
+.search-submit span{
+    box-sizing: content-box;
+    text-align: center;
+    height: 2rem;
+    padding: 0.65rem 0 0.95rem 0.4rem;
+    width: 2.8rem;
+    background:var(--white1);
+    border: 1px solid var(--white1);
+    color: var(--greySearch);
+    position: absolute;
+    left: -3rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.actions-head{
+    margin-left:auto ;
+}
+
+.user,.wishlist,.bag{
+    padding-right: 2rem;
+}
+
+/* @media only screen and (max-width:1040px){
+    .search-input{
+        display: none;
+    }
+    .search-head{
+        width: auto;
+    }
+    .search-submit{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .actions-head{
+        display: none;
+    }
+
+} */
